@@ -2,9 +2,9 @@
   "name": "evcc",
   "version": "0.106.3",
   "slug": "evcc",
-  "description": "EV Charge Controller!",
-  "url": "https://github.com/evcc-io/evcc",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "EV Charge Controller for beta.daheimladen.com",
+  "url": "https://github.com/simowNgithub/evcc",
+  "arch": ["amd64"],
   "startup": "application",
   "panel_icon": "mdi:ev-station",
   "panel_admin": false,
@@ -14,7 +14,7 @@
   "ingress": true,
   "ingress_port": 7070,
   "init": false,
-  "image": "andig/evcc",
+  "image": "simown/evcc",
   "options": {
       "config_file": "/config/evcc.yaml",
       "sqlite_file": "/data/evcc.db"
